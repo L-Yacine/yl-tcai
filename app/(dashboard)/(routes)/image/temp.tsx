@@ -77,7 +77,7 @@ const PhotoPage = () => {
         <Form {...form}>
           <form
             onSubmit={form.handleSubmit(onSubmit)}
-            className="grid w-full grid-cols-12 gap-2 p-4 px-3 border rounded-lg md:px-6 focus-within:shadow-sm"
+            className="grid w-full grid-cols-12 gap-2 p-4 px-3 border rounded-lg  md:px-6 focus-within:shadow-sm"
           >
             <FormField
               name="prompt"
@@ -85,9 +85,9 @@ const PhotoPage = () => {
                 <FormItem className="col-span-12 lg:col-span-6">
                   <FormControl className="p-0 m-0">
                     <Input
-                      className="px-2 border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
+                      className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
                       disabled={isLoading}
-                      placeholder="A colorful parrot perched on a branch of a flowering tree"
+                      placeholder="A picture of a horse in Swiss alps"
                       {...field}
                     />
                   </FormControl>

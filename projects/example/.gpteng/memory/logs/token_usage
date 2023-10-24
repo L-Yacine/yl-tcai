@@ -1,0 +1,3 @@
+step_name,prompt_tokens_in_step,completion_tokens_in_step,total_tokens_in_step,total_prompt_tokens,total_completion_tokens,total_tokens
+simple_gen,448,230,678,448,230,678
+gen_entrypoint,341,578,919,789,808,1597
